@@ -38,7 +38,7 @@ approve 1001 1
 ```text
 disapprove 1001 1
 ```
-* To disapprove employee 1002 with reimbursement 2, you write
+* To approve employee 1002 with reimbursement 2, you write
 ```text
 approve 1002 2
 ```
