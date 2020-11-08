@@ -43,6 +43,22 @@ disapprove 1001 1
 approve 1002 2
 ```
 
+Click Apply and OK, after you have updated Program Arguments.
+
+Then, back to the _main()_ method, click the play icon again. And, from the menu options, click on the _Run 'ReimbursementApprovalMain.main()'.
+
+![Run Application](./run-application.png "Run Application")
+
+After running, you should see an output to the console similar to the following:
+
+```shell script
+=== Saved Approval ===
+ReimbursementApproval{reimbursementId=1, employeeId=1001, approved=true}
+=== End - Saved Approval ===
+
+Process finished with exit code 0
+```
+
 ### Actual Exercise
 
 **Improvements**:
