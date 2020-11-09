@@ -1,6 +1,6 @@
 package com.gamesys.exercises.reimbursement.approval.core;
 
-public class ReimbursementApprovalRequest {
+public class ReimbursementApprovalRequest extends  ReimbursementApproval{
 
     private long employeeId;
     private long reimbursementId;

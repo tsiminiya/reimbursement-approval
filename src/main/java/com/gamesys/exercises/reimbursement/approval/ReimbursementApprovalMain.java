@@ -13,6 +13,7 @@ public class ReimbursementApprovalMain {
         ReimbursementApprovalRequest request = new ReimbursementApprovalRequest();
         request.setEmployeeId(Long.parseLong(args[1]));
         request.setReimbursementId(Long.parseLong(args[2]));
+        request.setApprover(args[3]);
 
         if ("approve".equals(args[0])) {
             reimbursementApprovalService.approve(request);

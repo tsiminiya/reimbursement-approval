@@ -5,6 +5,7 @@ public class ReimbursementApproval {
     private long reimbursementId;
     private long employeeId;
     private boolean approved;
+    private String approver;
 
     public ReimbursementApproval() {
     }
@@ -13,6 +14,13 @@ public class ReimbursementApproval {
         this.reimbursementId = reimbursementId;
         this.employeeId = employeeId;
         this.approved = approved;
+    }
+
+    public ReimbursementApproval(long reimbursementId, long employeeId, boolean approved, String approver) {
+        this.reimbursementId = reimbursementId;
+        this.employeeId = employeeId;
+        this.approved = approved;
+        this.approver = approver;
     }
 
     public long getReimbursementId() {
@@ -39,12 +47,21 @@ public class ReimbursementApproval {
         this.approved = approved;
     }
 
+    public String getApprover() {
+        return approver;
+    }
+
+    public void setApprover(String approver) {
+        this.approver = approver;
+    }
+
     @Override
     public String toString() {
         return "ReimbursementApproval{" +
                 "reimbursementId=" + reimbursementId +
                 ", employeeId=" + employeeId +
                 ", approved=" + approved +
+                ", approver=" + approver +
                 '}';
     }
 }
