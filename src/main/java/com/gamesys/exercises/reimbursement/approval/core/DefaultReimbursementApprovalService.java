@@ -3,7 +3,7 @@ package com.gamesys.exercises.reimbursement.approval.core;
 public class DefaultReimbursementApprovalService implements ReimbursementApprovalService {
 
     private static final boolean APPROVED = true;
-    private static final boolean UNAPPROVED = true;
+    private static final boolean UNAPPROVED = false;
 
     private final ReimbursementApprovalManager reimbursementApprovalManager;
 
