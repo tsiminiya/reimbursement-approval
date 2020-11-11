@@ -6,4 +6,16 @@ public interface ReimbursementApprovalService {
 
     void disapprove(ReimbursementApprovalRequest request);
 
+    default void approveWithDetails(
+            ReimbursementApprovalRequest request,
+            String username) {
+
+    };
+
+    default void disapproveWithDetails(
+            ReimbursementApprovalRequest request,
+            String username,
+            String reason) {
+
+    };
 }

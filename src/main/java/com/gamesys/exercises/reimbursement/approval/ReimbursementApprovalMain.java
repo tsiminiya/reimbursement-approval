@@ -4,7 +4,7 @@ import com.gamesys.exercises.reimbursement.approval.config.ReimbursementApproval
 import com.gamesys.exercises.reimbursement.approval.core.ReimbursementApprovalRequest;
 import com.gamesys.exercises.reimbursement.approval.core.ReimbursementApprovalService;
 
-public class ReimbursementApprovalMain {
+public class    ReimbursementApprovalMain {
 
     public static void main(String[] args) {
         ReimbursementApprovalConfiguration reimbursementApprovalConfiguration = new ReimbursementApprovalConfiguration();
